@@ -1,0 +1,16 @@
+[
+{
+  "modid": "offlinetweaker",
+  "name": "OfflineTweaker",
+  "description": "A mod to make WLAN server offline.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/xfl03/OfflineTweaker",
+  "updateUrl": "",
+  "authorList": ["xfl03"],
+  "credits": "MIT",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
