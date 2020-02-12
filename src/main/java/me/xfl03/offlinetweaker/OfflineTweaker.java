@@ -7,9 +7,10 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 @Mod(
         modid = "offlinetweaker",
         name = "OfflineTweaker",
-        version = "0.3.3",
+        version = "%VERSION%",
         acceptedMinecraftVersions = "[1.8,)",
-        serverSideOnly = true
+        clientSideOnly = true,
+        acceptableRemoteVersions = "*"
 )
 public class OfflineTweaker {
     @EventHandler

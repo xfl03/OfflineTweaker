@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 
-version = "0.3.3"
+version = "0.3.4"
 group = "me.xfl03.offlinetweaker"
 archivesBaseName = "OfflineTweaker"
 
@@ -23,6 +23,9 @@ minecraft {
     version = "1.12.2-14.23.4.2705"
     runDir = "run"
     mappings = "snapshot_20171003"
+
+    replaceIn "me/xfl03/offlinetweaker/OfflineTweaker.java"
+    replace "%VERSION%", project.version
 }
 
 processResources {
