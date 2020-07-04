@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
         modid = "offlinetweaker",
         name = "OfflineTweaker",
         version = "%VERSION%",
-        acceptedMinecraftVersions = "[1.8,)",
+        acceptedMinecraftVersions = "[1.7.10,)",
         clientSideOnly = true,
         acceptableRemoteVersions = "*"
 )
